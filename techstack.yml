@@ -1,0 +1,310 @@
+repo_name: Zxce3/mit-license
+report_id: 7f2fa066cd1437d4f67096ae104e2516
+version: 0.1
+repo_type: Public
+timestamp: '2024-06-08T17:07:30+00:00'
+requested_by: web-flow
+provider: github
+branch: master
+detected_tools_count: 22
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/Zxce3/mit-license
+  detection_source: Repo Metadata
+- name: EJS
+  description: An Embedded JavaScript templating Language
+  website_url: https://ejs.co/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Templating Languages & Extensions
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/Zxce3/mit-license/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Richie Bendall
+  last_updated_on: 2019-06-21 08:26:48.000000000 Z
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/Zxce3/mit-license
+  detection_source: Repo Metadata
+- name: ExpressJS
+  description: Sinatra inspired web development framework for node.js -- insanely
+    fast, flexible, and simple
+  website_url: http://expressjs.com/
+  version: 4.17.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Microframeworks (Backend)
+  image_url: https://img.stackshare.io/service/1163/hashtag.png
+  detection_source_url: https://github.com/Zxce3/mit-license/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Richie Bendall
+  last_updated_on: 2019-07-11 05:49:22.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/Zxce3/mit-license
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/Zxce3/mit-license/blob/master/.github/workflows/main.yml
+  detection_source: ".github/workflows/main.yml"
+  last_updated_by: Richie Bendall
+  last_updated_on: 2021-10-28 11:41:00.000000000 Z
+- name: Octokit
+  description: GitHub API Client Library for .NET
+  website_url: https://github.com/octokit/octokit.net
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Tools for GitHub
+  image_url: https://img.stackshare.io/service/9827/octokit-dotnet_2.png
+  detection_source_url: https://github.com/Zxce3/mit-license/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Richie Bendall
+  last_updated_on: 2022-10-12 13:22:17.000000000 Z
+- name: nodemon
+  description: A simple monitor script for use during development of a node.js app
+  website_url: http://nodemon.io/
+  version: 2.0.15
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: node.js Application Monitoring
+  image_url: https://img.stackshare.io/service/5577/preview.png
+  detection_source_url: https://github.com/Zxce3/mit-license/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Richie Bendall
+  last_updated_on: 2021-10-28 12:55:11.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/Zxce3/mit-license/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Richie Bendall
+  last_updated_on: 2019-06-21 08:26:48.000000000 Z
+- name: xo
+  description: Zero configuration fixer and linter for javascript code.
+  website_url: https://www.npmjs.com/package/xo
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/4535/no-img-open-source.png
+  detection_source_url: https://github.com/Zxce3/mit-license/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Richie Bendall
+  last_updated_on: 2019-06-21 08:26:48.000000000 Z
+- name: express
+  description: Fast, unopinionated, minimalist web framework
+  package_url: https://www.npmjs.com/express
+  version: 4.17.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15818/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/Zxce3/mit-license/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Richie Bendall
+  last_updated_on: 2019-07-11 05:49:22.000000000 Z
+  vulnerabilities:
+  - name: qs vulnerable to Prototype Pollution
+    cve_id: CVE-2022-24999
+    cve_url: https://github.com/advisories/GHSA-hrpp-h998-j3pp
+    detected_date: Dec 7
+    severity: high
+    first_patched: 4.17.3
+  - name: Express.js Open Redirect in malformed URLs
+    cve_id: CVE-2024-29041
+    cve_url: https://github.com/advisories/GHSA-rv95-896h-c2vc
+    detected_date: Mar 26
+    severity: moderate
+    first_patched: 4.19.2
+- name: "@octokit/rest"
+  description: GitHub REST API client for Node.js
+  package_url: https://www.npmjs.com/@octokit/rest
+  version: 19.0.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16999/default_43f23668e39c9b3381720c9c76540776b8a49167.png
+  detection_source_url: https://github.com/Zxce3/mit-license/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Richie Bendall
+  last_updated_on: 2022-10-12 13:22:17.000000000 Z
+- name: btoa
+  description: Btoa for Node.JS
+  package_url: https://www.npmjs.com/btoa
+  version: 1.2.1
+  license: MIT,Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17351/default_b8b4be8bd54f9619446b80b2bf448c0891101f2a.png
+  detection_source_url: https://github.com/Zxce3/mit-license/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Richie Bendall
+  last_updated_on: 2019-07-03 07:45:44.000000000 Z
+- name: cors
+  description: Node.js CORS middleware
+  package_url: https://www.npmjs.com/cors
+  version: 2.8.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16165/default_41f04716a804e853d5c38a5b81ee0ea8a842ad82.png
+  detection_source_url: https://github.com/Zxce3/mit-license/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Richie Bendall
+  last_updated_on: 2020-03-18 05:21:30.000000000 Z
+- name: css
+  description: CSS parser / stringifier
+  package_url: https://www.npmjs.com/css
+  version: 2.2.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17017/default_824835a71140f223a333a5e10225c10368f12857.png
+  detection_source_url: https://github.com/Zxce3/mit-license/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Richie Bendall
+  last_updated_on: 2019-06-21 08:26:48.000000000 Z
+- name: load-json-file
+  description: Read and parse a JSON file
+  package_url: https://www.npmjs.com/load-json-file
+  version: 7.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17745/default_148ef251371a47f69a7acad9f3b25e2ec2ee4aa4.png
+  detection_source_url: https://github.com/Zxce3/mit-license/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Richie Bendall
+  last_updated_on: 2021-09-19 08:48:42.000000000 Z
+- name: path-exists
+  description: Check if a path exists
+  package_url: https://www.npmjs.com/path-exists
+  version: 3.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16765/default_661bbd7f9556b6c5c0b8be11cd13e1813fc5c977.png
+  detection_source_url: https://github.com/Zxce3/mit-license/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Richie Bendall
+  last_updated_on: 2021-09-19 08:48:42.000000000 Z
+- name: postcss-preset-env
+  description: Convert modern CSS into something browsers understand
+  package_url: https://www.npmjs.com/postcss-preset-env
+  version: 6.7.0
+  license: CC0-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16373/default_92302d1bbf4c0f67b862869662b4f69002c94aad.png
+  detection_source_url: https://github.com/Zxce3/mit-license/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Richie Bendall
+  last_updated_on: 2019-07-11 05:49:22.000000000 Z
+- name: read-pkg
+  description: Read a package.json file
+  package_url: https://www.npmjs.com/read-pkg
+  version: 6.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17758/default_b527ab15473225ca7c2e9b197c9726e92ac97de8.png
+  detection_source_url: https://github.com/Zxce3/mit-license/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Richie Bendall
+  last_updated_on: 2021-09-19 08:48:42.000000000 Z
+- name: serve-favicon
+  description: Favicon serving middleware with caching
+  package_url: https://www.npmjs.com/serve-favicon
+  version: 2.5.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16361/default_92302d1bbf4c0f67b862869662b4f69002c94aad.png
+  detection_source_url: https://github.com/Zxce3/mit-license/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Richie Bendall
+  last_updated_on: 2020-01-03 03:12:18.000000000 Z
+- name: write-json-file
+  description: Stringify and write JSON to a file atomically
+  package_url: https://www.npmjs.com/write-json-file
+  version: 5.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18233/default_399b42b64f69a249ba1359dbaca6e1579548ccff.png
+  detection_source_url: https://github.com/Zxce3/mit-license/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Richie Bendall
+  last_updated_on: 2021-09-19 08:48:42.000000000 Z
+- name: xo
+  description: JavaScript linter with great defaults
+  package_url: https://www.npmjs.com/xo
+  version: 0.44.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16016/default_261820f5687b4c88a3e8f95c71b5e8dccd34c1d7.png
+  detection_source_url: https://github.com/Zxce3/mit-license/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Richie Bendall
+  last_updated_on: 2019-06-21 08:26:48.000000000 Z
